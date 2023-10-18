@@ -18,13 +18,11 @@ To use this script to decrypt base64-encoded data, follow these steps:
 2. Open a PowerShell terminal.
 3. Navigate to the directory containing the script.
 
-   ```powershell
-   cd path/to/script-directory```
+   ```cd path/to/script-directory```
 Run the script with the -inputFilePath and -encryptionKey parameters. Replace the placeholders with your specific input file and encryption key.
 
-powershell
-Copy code
-.\decrypt.ps1 -inputFilePath "input.txt" -encryptionKey "YourEncryptionKeyHere"
+``` .\decrypt.ps1 -inputFilePath "input.txt" -encryptionKey "YourEncryptionKeyHere"```
+
 The script will read the input file, decrypt the data, and display the decrypted text in the terminal.
 
 Prerequisites
@@ -36,12 +34,11 @@ Clone this repository to your local machine or download the script file decrypt.
 
 bash
 Copy code
-git clone https://github.com/yourusername/your-repo.git
+```git clone https://github.com/yourusername/your-repo.git```
 Open a PowerShell terminal.
 
 Navigate to the directory containing the script.
 
-powershell
-Copy code
-cd path/to/script-directory
+
+```cd path/to/script-directory```
 Follow the usage instructions provided above to decrypt your base64-encoded data.
