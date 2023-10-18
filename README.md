@@ -20,7 +20,7 @@ To use this script to decrypt base64-encoded data, follow these steps:
 
 Run the script with the -inputFilePath and -encryptionKey parameters. Replace the placeholders with your specific input file and encryption key.
 
-``` .\decrypt.ps1 -inputFilePath "input.txt" -encryptionKey "YourEncryptionKeyHere"```
+``` .\Basedecoder.ps1 -inputFilePath "input.txt" -encryptionKey "YourEncryptionKeyHere"```
 
 The script will read the input file, decrypt the data, and display the decrypted text in the terminal.
 
@@ -33,7 +33,7 @@ Before using this script, ensure you have the following prerequisites:
 
 Clone this repository to your local machine or download the script file decrypt.ps1.
 
-```git clone https://github.com/yourusername/your-repo.git```
+```git clone https://github.com/m4rvxpn/WinBaseDeCoder.git```
 
 Open a PowerShell terminal.
 
